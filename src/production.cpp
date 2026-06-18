@@ -1,4 +1,4 @@
-// Archivo que maneja toda la lógica de los proyectos: crear, buscar, ordenar y editar
+// Archivos que manejan la lógica del programa
 #include <cstring>
 #include "../include/production.h"
 #include "../include/utils.h"
