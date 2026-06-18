@@ -5,9 +5,9 @@
 **Docente:** Pamela Shirley Valenzuela Fernández  
 **Gestión:** 1/2026  
 
-### 👩‍💻 Integrantes del Equipo
-* **Carla**
-* **Nicole**
+Integrantes del Equipo:
+Nicole Hernández 
+Carla Saenz
 
 ---
 
@@ -19,7 +19,7 @@ Para cumplir con el **CRUD en archivos binarios (.dat)**, se ha diseñado una es
 
 ```cpp
 struct Content {
-    int id;                      // Identificador único y autoincremental
+    int id;                      // Identificador único 
     char contenido[100];         // Título o descripción del contenido (ej. "Spot Publicitario")
     char tipo[30];               // Tipo: VIDEO, ANIMACION, IMAGEN
     char cliente[50];            // Nombre del cliente
@@ -49,11 +49,11 @@ El código fuente ha sido optimizado **exclusivamente** para cubrir los puntos a
 ## 3. Arquitectura del Proyecto
 
 Para mantener el orden y evitar colisiones de dependencias, se usó el paradigma modular de C++:
-* 📂 `include/`: Contiene los *headers* (`.h`). Aquí se declaran los prototipos (`production.h`, `fileio.h`, `utils.h`, `menu.h`).
-* 📂 `src/`: Contiene las implementaciones técnicas (`.cpp`) correspondientes a las cabeceras, separando toda la lógica por módulos.
-* 📂 `data/`: Directorio donde el sistema guarda físicamente la base de datos `proyectos.dat`.
-* 📄 `main.cpp`: Es el punto de entrada, sumamente limpio, cuya única instrucción es mandar a llamar a `Menu::runApp()`.
-* 📄 `PROYECTO FINAL.dev`: Archivo de entorno listo para **Dev-C++**, mapeado con la estructura modular completa.
+* `include/`: Contiene los *headers* (`.h`). Aquí se declaran los prototipos (`production.h`, `fileio.h`, `utils.h`, `menu.h`).
+* `src/`: Contiene las implementaciones técnicas (`.cpp`) correspondientes a las cabeceras, separando toda la lógica por módulos.
+* `data/`: Directorio donde el sistema guarda físicamente la base de datos `proyectos.dat`.
+*  `main.cpp`: Es el punto de entrada, sumamente limpio, cuya única instrucción es mandar a llamar a `Menu::runApp()`.
+*  `PROYECTO FINAL.dev`: Archivo de entorno listo para **Dev-C++**, mapeado con la estructura modular completa.
 
 ---
 
